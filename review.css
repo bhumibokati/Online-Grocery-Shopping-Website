@@ -1,0 +1,27 @@
+fieldset
+{
+border: 3px solid orange;
+width: 15%;
+}
+fieldset legend
+{
+  font-size: 20px;
+}
+
+.box
+{
+	position:absolute;
+	top: 0%;
+	left: 7%;
+	margin-bottom: 5px;
+}
+
+.box a{
+	font-size: 80px;
+	color: #313131;
+	transition: 0.3s all;
+}
+
+.box a:hover{
+	color: orange;
+}
