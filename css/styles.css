@@ -1,0 +1,141 @@
+
+
+/*login and signup button CSS*/
+
+
+body{
+    background-color: white;
+}
+/*.button {*/
+    /*display: inline-block;*/
+    /*border-radius: 4px;*/
+    /*background-color: #f4511e;*/
+    /*border: none;*/
+    /*color: #FFFFFF;*/
+    /*text-align: center;*/
+    /*!*font-size: 28px;*!*/
+    /*padding: 20px 10px;*/
+    /*width: 250px;*/
+    /*margin: 5px;*/
+    /*transition: all 0.5s;*/
+    /*cursor: pointer;*/
+/*}*/
+
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/*login and signup button CSS E*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.top_content {
+    margin-top: 5px
+}
+
+#mail {
+    margin-left: 10px;
+    float: right;
+}
+
+#telephone {
+    float: right;
+}
+
+.p-5 {
+    padding: 3px;
+}
+
+.nav {
+    text-align: center;
+}
+
+
+
+/*#slide_image {*/
+    /*height: 400px;*/
+    /*width: 812px;*/
+/*}*/
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.category {
+    background-color: black;
+    color: white;
+    opacity: .85;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.option {
+    margin: 15px;
+    font-size: 20px;
+    /*font-weight: bold;*/
+
+}
+
+
+
+
+
+.feature1 {
+    margin-left: 7.5px;
+    float: left;
+}
+
+.feature2 {
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    width: 250px;
+    float: right;
+}
+
+.feature3 {
+    width: 250px;
+    float: right;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.icon_reference {
+    width: 250px;
+    float: left;
+
+}
+
+
+

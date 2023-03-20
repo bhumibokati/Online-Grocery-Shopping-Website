@@ -1,0 +1,109 @@
+
+body {
+    font-family: kirvy;
+    text-decoration: none;
+    /*color: black;*/
+    color: #000000;
+    margin: 0px;
+    background-color: rgba(255,255,255,0.2);
+    z-index: 2;
+
+
+}
+
+
+/*.nav_ul {*/
+/*margin: 0px;*/
+/*padding: 0px;*/
+/*list-style: none;*/
+/*!*height: 100px;*!*/
+
+/*}*/
+
+/*Navigation part by suved*/
+.logo img
+{
+    height: 65px;
+    width: 65px;
+    margin: 0;
+
+}
+.logo a
+{
+    background: white;
+
+}
+.logo a:hover{
+    background: orange;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 4;
+
+}
+.decoration
+{
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: orange;
+    color: black;
+    transition:1s;
+    height: inherit;
+}
+
+.navbar a:active{
+    background-color: orange;
+}
+.nav-login{
+    float: right;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 4;
+}
+
+.nav-login input[type=email]
+{
+    box-sizing: border-box;
+}
+
+.nav-login input[type="submit"]
+{
+    outline: 0;
+    font-size: 13px;
+    padding: 3px;
+    width: 80px;
+    text-align: center;
+    background: white;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: orange;
+    transition: 1s;
+    border: none;
+}
+
+
+
+.rate
+{
+    margin-top: 5px;
+}
